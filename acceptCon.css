@@ -1,0 +1,93 @@
+#accept_con{
+  width: 30%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  background: #f5f5f5;
+}
+#ac_inner{
+  width: 90%;
+  height: auto;
+  background-color: transparent;
+  text-align: center;
+  margin: 0 5%;
+  padding: 30px 0;
+}
+#ac_h1{
+  font-size: 25px;
+  font-weight: 500;
+  color: #44415e;
+  margin: 0 0 5px 0;
+}
+#ac_h2{
+  font-size: 13px;
+  font-weight: 500;
+  color: #44415e;
+}
+#ac_h3{
+  font-size: 30px;
+  font-weight: 500;
+  color: #44415e;
+  margin: 10px 0 20px 0;
+}
+#address_con{
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+#address_a{
+  width: 40%;
+  height: auto;
+  margin: 0;
+}
+#icon_con{
+  width: 20%;
+  height: auto;
+  margin: 0;
+}
+#icon_con{
+  font-size: 40px;
+  color: #44415e28;
+}
+#address_b{
+  width: 40%;
+  height: auto;
+  margin: 0;
+}
+#info{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  padding: 30px 0;
+}
+.rows{
+  display: flex;
+  text-align: left;
+}
+.t_name{
+  flex: auto;
+}
+#info hr{
+  margin: 0;
+  width: 100%;
+}
+#final_action{
+  width: 100%;
+  height: auto;
+  margin: 50px 0;
+}
+#rBtn{
+  width: 40%;
+  height: 35px;
+  background-color: transparent;
+  border: 0.5px solid #44415e28;
+  color: #44415e;
+}
+#aBtn{
+  width: 40%;
+  height: 35px;
+  background-color: #44415e28;
+  border: 0.5px solid #44415e28;
+  color: #44415e;
+}
