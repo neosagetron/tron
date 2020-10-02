@@ -63,6 +63,7 @@ body{
 #others a{
   color: rgba(247, 162, 3, 0.795);
   font-size: 15px;
+  margin: 0 10px;
 }
 #msection{
   padding: 0;
