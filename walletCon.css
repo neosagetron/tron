@@ -131,6 +131,10 @@
   font-size: 25px;
   font-weight: 400;
   color: #2b265f;
+  width: 10%;
+  height: auto;
+  margin: 0;
+  padding: 0;
 }
 #wm_header i{
   width: 10%;
@@ -289,12 +293,6 @@
   padding: 0;
   text-align: center;
 }
-#sc_header i{
-  width: 10%;
-  height: auto;
-  margin: 0;
-  padding: 0;
-}
 #sc_header #sch_text{
   font-size: 25px;
   font-weight: 400;
@@ -345,4 +343,58 @@
   color: #ebebf3;
   border: none;
   border-radius: 25px;
+  outline: none;
+}
+#recieve_con{
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+#rc_inner{
+  width: 90%;
+  height: auto;
+  margin: 0 5%;
+  padding: 0;
+}
+#rc_header{
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#rc_header #rch_text{
+  font-size: 25px;
+  font-weight: 400;
+  width: 90%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+#rc_main{
+  width: 100%;
+  height: auto;
+  padding: 10px 0 50px 0;
+  margin: 80px 0 0 0;
+  background-color: transparent;
+  text-align: center;
+}
+#reminder_text{
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0 0 50px 0;
+}
+#address{
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+#copy_address{
+  height: 30px;
+  background-color: transparent;
+  border: 0.5px solid #44415e;
+  outline: none;
+  border-radius: 5px;
 }

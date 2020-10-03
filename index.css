@@ -65,6 +65,11 @@ body{
   font-size: 15px;
   margin: 0 10px;
 }
+#wallet_icon{
+  color: rgba(247, 162, 3, 0.795);
+  font-size: 15px;
+  margin: 0 10px;
+}
 #msection{
   padding: 0;
   margin: 0;
