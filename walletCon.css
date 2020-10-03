@@ -58,10 +58,11 @@
 #lc_password{
   background-color: transparent;
   text-align: center;
-  border: 1px solid #44415ea9;
+  border: 1px solid  #2b265f;
 }
 #lc_submit{
-  background-color: #0303d6da;
+  color: #ebebf3;
+  background-color:  #2b265f;
   border: none;
 }
 #create_wallet{
@@ -95,13 +96,253 @@
 #Cw_password,
 #c_password{
   background-color: transparent;
-  border: 1px solid rgba(0, 0, 0, 0.5);
+  border: 1px solid  #2b265f;
   text-indent: 10px;
 }
 #c_wallet{
-  background-color: #0303d6da;
+  color: #ebebf3;
+  background-color: #2b265f;
   border: none;
 }
 #w_main{
-  
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+}
+#wm_inner{
+  width: 90%;
+  height: auto;
+  margin: 0 5%;
+  padding: 0;
+  background-color: transparent;
+  text-align: center;
+}
+#wm_header{
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+.back{
+  font-size: 25px;
+  font-weight: 400;
+  color: #2b265f;
+}
+#wm_header i{
+  width: 10%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+#wm_header #ma_text{
+  font-size: 25px;
+  font-weight: 400;
+  width: 90%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+#wb_box{
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+  margin: 80px 0 0 0;
+  background-color: #2b265f;
+}
+#w_balance{
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+#trx_no{
+  font-size: 20px;
+  font-weight: 400;
+  color: #ebebf3;
+}
+#trx_text{
+  font-size: 13px;
+  font-weight: 400;
+  background-color: #0e0b25;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+#w_balance1{
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+  margin: 40px 0 0 0;
+}
+#available{
+  width: 50%;
+  height: auto;
+  background-color: transparent;
+}
+#available #a_text{
+  font-size: 13px;
+  font-weight: 600;
+  color: #c7c7f7de;
+}
+#available #trx_no1{
+  font-size: 15px;
+  font-weight: 600;
+  color: #ebebf3;
+}
+#frozen{
+  width: 50%;
+  height: auto;
+  background-color: transparent;
+}
+#frozen #f_text{
+  font-size: 13px;
+  font-weight: 600;
+  color: #c7c7f7de;
+}
+#frozen #trx_no2{
+  font-size: 15px;
+  font-weight: 600;
+  color: #ebebf3;
+}
+#bandwidth_con{
+  width: 100%;
+  height: auto;
+  background-color: #2b265f;
+  display: flex;
+  padding: 5px 0;
+  margin: 4px 0;
+}
+#bandwidth_text{
+  font-size: 15px;
+  font-weight: 600;
+  width: 50%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  color: #ebebf3;
+}
+#bandwidth_no{
+  font-size: 15px;
+  font-weight: 600;
+  width: 50%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  color: #ebebf3;
+}
+#action_con{
+  display: flex;
+  width: 50%;
+  height: auto;
+  padding: 50px 0 0 0;
+  margin: 0 25%;
+}
+#send_trx{
+  width: 40%;
+  border: none;
+  padding: 0;
+  margin: 0 2.5%;
+}
+#send_trx i{
+  font-size: 30px;
+  font-weight: 600;
+  background-color: #2b265f;
+  color: #ebebf3;
+  padding: 20px;
+  border-radius: 50%;
+}
+#receive_trx{
+  width: 40%;
+  border: none;
+  padding: 0;
+  margin: 0 2.5%;
+}
+#receive_trx i{
+  font-size: 30px;
+  font-weight: 600;
+  background-color: #2b265f;
+  color: #ebebf3;
+  padding: 20px;
+  border-radius: 50%;
+}
+#send_con{
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+#sc_inner{
+  width: 90%;
+  height: auto;
+  margin: 0 5%;
+  padding: 0;
+}
+#sc_header{
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#sc_header i{
+  width: 10%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+#sc_header #sch_text{
+  font-size: 25px;
+  font-weight: 400;
+  width: 90%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+#sc_main{
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+  margin: 80px 0 0 0;
+  background-color: transparent;
+}
+#transfer_a{
+  font-size: 15px;
+  font-weight: 400;
+}
+#sc_main .scm_input{
+  width: 100%;
+  height: 30px;
+  text-align: left;
+  background-color: transparent;
+  outline: none;
+  border: 0.5px solid #44415e;
+  text-indent: 8px;
+}
+#sc_balance{
+  font-size: 13px;
+  font-weight: 500;
+  text-align: right;
+}
+#receiving_a{
+  font-size: 15px;
+  font-weight: 400;
+}
+#t_amount{
+  font-size: 15px;
+  font-weight: 400;
+}
+#send_btn{
+  margin: 50px 20%;
+  text-align: center;
+  width: 60%;
+  height: 40px;
+  background-color: #2b265f;
+  color: #ebebf3;
+  border: none;
+  border-radius: 25px;
 }
