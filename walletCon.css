@@ -1,7 +1,10 @@
+#wallet_con_wrap{
+  display: none;
+}
 #wallet_con{
   width: 40%;
   height: auto;
-  background-color: none;
+  background-color: transparent;
   display: flex;
   margin: 0;
   padding: 0;
@@ -397,4 +400,48 @@
   border: 0.5px solid #44415e;
   outline: none;
   border-radius: 5px;
+}
+
+@media (max-width:1050px){
+  #wallet_con_wrap{
+  left: 0;
+}
+  #wallet_con{
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  #lc_header1{
+    font-size: 15px;
+    font-weight: 500;
+    color: #44415ea9;
+  }
+  #lc-header{
+    font-size: 20px;
+    font-weight: 400;
+    color: #44415e;
+  }
+  #cw_header{
+    font-size: 20px;
+    font-weight: 400;
+    color: #44415e;
+  }
+  #action_con{
+    display: flex;
+    width: 90%;
+    height: auto;
+    padding: 50px 0 0 0;
+    margin: 0 0 0 10%;
+  }
+  #ta_input ::placeholder{
+    font-size: 12px;
+  }
+  #address{
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
 }

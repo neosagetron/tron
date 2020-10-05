@@ -213,9 +213,9 @@ body{
   margin: 0;
 }
 #inner_cpe{
-  width: 80%;
+  width: 100%;
   height: auto;
-  margin: 0 10%;
+  margin: 0;
   padding: 80px 0 40px 0;
   text-align: center;
 }
@@ -240,31 +240,23 @@ body{
   padding: 0;
 }
 #cpe_illustrate{
-  width: 96%;
+  width: 80%;
   height: auto;
   display: flex;
-  margin: 50px 2%;
+  margin: 50px 10%;
   padding: 0;
 }
-#cpe_illustrate .img{
+#cpe_illustrate img{
   width: 45%;
-  height: 400px;
+  height: 440px;
   margin: 0 2.5%;
 }
 #cpe_illustrate #x3{
   border-radius: 10px;
-  background-image: url('Slide 1.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right;
   opacity: 0.8;
 }
 #cpe_illustrate #x4{
   border-radius: 10px;
-  background-image: url('Slide2.JPG');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right;
   opacity: 0.8;
 }
 #cpe_h2{
@@ -313,4 +305,182 @@ body{
   color: rgba(247, 162, 3, 0.986);
   background-color: transparent;
   border-radius: 50px;
+}
+@media (max-width:1050px){
+  #cpe_illustrate img{
+    width: 48%;
+    height: 400px;
+    margin: 0 0.5%;
+  }
+}
+@media (max-width:970px){
+  #cpe_illustrate{
+    width: 96%;
+    height: auto;
+    display: block;
+    margin: 50px 2%;
+    padding: 0;
+  }
+  #cpe_illustrate img{
+    width: 60%;
+    height: 400px;
+    margin: 0 20%;
+  }
+}
+@media (max-width:798px){
+  #welcome_text h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgba(236, 218, 185, 0.966);
+  }
+  #welcome_text p{
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(247, 162, 3, 0.795);
+  }
+  #cpe_illustrate{
+    width: 96%;
+    height: auto;
+    display: block;
+    margin: 50px 2%;
+    padding: 0;
+  }
+  #cpe_illustrate img{
+    width: 70%;
+    height: 400px;
+    margin: 0 15%;
+  }
+  #inner_cpe input{
+    width: 50%;
+    height: 60px;
+    padding: 0;
+    margin: 20px 0;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(247, 162, 3);
+    color: rgb(236, 218, 185);
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+}
+@media (max-width:676px){
+  #others{
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 45px 5% 20px 0;
+    padding: 0;
+  }
+  #cpe_illustrate{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 50px 0;
+    padding: 0;
+  }
+  #cpe_illustrate img{
+    width: 90%;
+    height: 400px;
+    margin: 0 5%;
+  }
+  #inner_guide{
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin: 0 5%;
+  }
+  #highlights{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 40px 0 70px 0;
+  }
+  #col-0,
+  #col-1{
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+  }
+  #col-0 ul{
+    width: 90%;
+    height: auto;
+    margin: 10px 0;
+  }
+}
+@media (max-width:590px){
+  #acc{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 83px 15%;
+    text-align: center;
+  }
+  #acc input{
+    width: 100%;
+    height: 60px;
+    padding: 0;
+    margin: 10px 0;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(247, 162, 3, 0.795);
+    color: rgba(236, 218, 185, 0.966);
+    font-weight: 600;
+    cursor: pointer;
+  }
+  #smd{
+    width: 100%;
+    margin: 25px 0;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(3, 3, 24);
+  }
+  #inner_cpe input{
+    width: 60%;
+    height: 60px;
+    padding: 0;
+    margin: 20px 0;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(247, 162, 3);
+    color: rgb(236, 218, 185);
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  #cpe_h1{
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.966);
+    margin: 0;
+    padding: 0;
+  }
+  #cpe_h1 span{
+    color: rgba(247, 162, 3, 0.795);
+    margin: 0;
+    padding: 0;
+  }
+  #cpe_p{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.966);
+    margin: 0;
+    padding: 0;
+  }
+}
+@media (max-width:390px){
+  #inner_cpe input{
+    width: 80%;
+    height: 60px;
+    padding: 0;
+    margin: 20px 0;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(247, 162, 3);
+    color: rgb(236, 218, 185);
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+  }
 }
