@@ -22,11 +22,10 @@
           <i class="fas fa-times" id="close"></i>
           <div id="others">
             <input type="button" value="LOGIN">
-            <a href="">FAQ</a>
+            <a href="https://medium.com/@neosage/the-faqs-da20171d14cc?source=friends_link&sk=dbdf2742d2f8ca766ccfbb7a21080250">FAQ</a>
             <a href="">COMMISSION PLAN</a>
-            <a href="https://t.me/neosagetrx1"><i class="fab fa-telegram-plane"></i></a>
-            <a href="https://medium.com/@tronsage1/
-            tronsage-smart-contract-all-you-need-to-know-d0dc1eadc59f?sk=69133dc41264ec6f92790a8085389f81">
+            <a href="https://t.me/neosagetrx"><i class="fab fa-telegram-plane"></i></a>
+            <a href="https://medium.com/@neosage/tronsage-smart-contract-all-you-need-to-know-d0dc1eadc59f?source=friends_link&sk=69133dc41264ec6f92790a8085389f81">
             <i class="fab fa-medium-m"></i></a>
             <i class="fas fa-wallet" id="wallet_icon"></i>
           </div>
@@ -37,8 +36,8 @@
             <p>A 100% DECENTRALISED SMART CONTRACT BASED ON TRON BLOCKCHAIN</p>
           </div>
           <div id="acc">
-            <input type="button" value="JOIN NOW">
-            <input type="button" value="LOGIN">
+            <input type="button" value="JOIN NOW" id="joinBtn">
+            <input type="button" value="LOGIN" id="loginBtn">
           </div>
         </div>
       </div>
@@ -116,7 +115,7 @@
             <h2 id="cpe_h2">
               Enter Both Matrix NEO X3 and NEO X4 Simultaneously and Benefit From Both Matrices
             </h2>
-            <input type="button" value="ONLY 200 TRX TO JOIN">
+            <input type="button" value="ONLY 200 TRX TO JOIN" id="rFee">
           </div>
         </div>
       </div>
@@ -125,7 +124,7 @@
         <h1 id="f_h1">
           Copyright © 2020 NEOSAGETRON. All Rights Reserved.
         </h1>
-        <a href="https://t.me/tronsage1"><i class="fab fa-telegram-plane"></i></a>
+        <a href="https://t.me/neosagetrx"><i class="fab fa-telegram-plane"></i></a>
       </div>
     </div>
     <div id="wallet_con_wrap">
@@ -140,6 +139,7 @@
               </h1>
               <input type="password" name="" id="lc_password" placeholder="Type Your Password"> 
               <input type="submit" value="Continue" id="lc_submit">
+              <p>I don't have a NEO Wallet <span id="cwbtn">Create Wallet</span></p>
             </div>
           </div>
           <div id="create_wallet">
@@ -148,6 +148,7 @@
               <input type="password" name="password" id="Cw_password" placeholder="Create Wallet Password">
               <input type="password" name="password" id="c_password" placeholder="Confirm Password">
               <input type="submit" value="Create Wallet" id="c_wallet">
+              <p>Already have a neo wallet <span id="lgin">Log in</span></p>
             </div>
           </div>
           <div id="w_main">
@@ -195,6 +196,7 @@
                 <input type="text" name="Transfer amount" class="scm_input" id="ta_text">
                 <br><br>
                 <input type="text" name="Transfer Note" class="scm_input" id="transfer_n" placeholder="Add transfer note">
+                <p id="insuficient_fund">Insufficient balance, deposit more and try again</p>
                 <input type="submit" value="Send" id="send_btn">
               </div>
             </div>
