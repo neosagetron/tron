@@ -7,6 +7,9 @@ body{
 i, input{
   cursor: pointer;
 }
+input{
+  outline: none;
+}
 #con{
   width: 100%;
   height: auto;
@@ -532,4 +535,35 @@ i, input{
     font-weight: 600;
     cursor: pointer;
   }
+}
+
+
+
+
+
+#launchDate{
+  display: none;
+  width: 80%;
+  margin: 0 10%;
+  height: auto;
+  position: fixed;
+  top: 250px;
+  padding: 20px 0;
+  background-color: rgba(247, 162, 3, 0.863);
+  text-align: center;
+  border-radius: 10px;
+}
+#launchDate p{
+  font-size: 20px;
+  color: #ffffff;
+}
+#launchDate a{
+  text-decoration: none;
+  color:blue;
+  font-size: 13px;
+}
+#close_ld{
+  font-size: 26px;
+  color: #ffffff;
+  margin: 20px 0;
 }

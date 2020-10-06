@@ -19,17 +19,22 @@ var loginBtn = document.getElementById('loginBtn')
 var openCon = document.getElementById('join_con')
 var con = document.getElementById('con')
 var rFeeBtn = document.getElementById('rFee')
+var launchDate = document.getElementById('launchDate')
+var close_ld = document.getElementById('close_ld')
 
 joinBtn.onclick = function(){
-  openCon.style.display = 'block'
-  con.style.display = 'none'
+  //openCon.style.display = 'block'
+  //con.style.display = 'none'
+  launchDate.style.display = 'block'
 }
 rFeeBtn.onclick = function(){
-  openCon.style.display = 'block'
-  con.style.display = 'none'
+  //openCon.style.display = 'block'
+  //con.style.display = 'none'
+  launchDate.style.display = 'block'
 }
-
-
+close_ld.onclick = function(){
+  launchDate.style.display = 'none'
+}
 
 
 var walletBtn = document.getElementById('wallet_icon')
