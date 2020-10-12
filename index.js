@@ -23,14 +23,14 @@ var launchDate = document.getElementById('launchDate')
 var close_ld = document.getElementById('close_ld')
 
 joinBtn.onclick = function(){
-  //openCon.style.display = 'block'
-  //con.style.display = 'none'
-  launchDate.style.display = 'block'
+  openCon.style.display = 'block'
+  con.style.display = 'none'
+  //launchDate.style.display = 'block'
 }
 rFeeBtn.onclick = function(){
-  //openCon.style.display = 'block'
-  //con.style.display = 'none'
-  launchDate.style.display = 'block'
+  openCon.style.display = 'block'
+  con.style.display = 'none'
+  //launchDate.style.display = 'block'
 }
 close_ld.onclick = function(){
   launchDate.style.display = 'none'
